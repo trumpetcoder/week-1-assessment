@@ -1,0 +1,73 @@
+/* Linked Style sheet for Week-1-Assessment */
+
+/* remove the margins in the body setting font-size */
+
+html, body {
+	margin: 0;
+	font-size: 16px;
+	font-family: helvetica, Arial, sans-serif;
+	
+}
+
+.top {
+	background: url('images/bgtile.png');
+	height: 300px;
+}
+
+.container {
+	width: 80%;
+    height: 50%;
+	margin: auto;
+	padding-top: 9%;
+}
+
+.phones {
+	float: left;
+	margin-left: 10%;
+}
+
+.info {
+	float: right;
+	width: 50%;	
+}
+
+.frame {
+	background: url('images/frame.png');
+	background-repeat: no-repeat;
+}
+
+
+
+button {
+	float: right;
+	margin-right: 12%;
+	margin-top: 5%;
+}
+
+h1 {
+	padding-left: 5%;
+	padding-top: 8%;
+}
+
+p {
+	padding-left: 5%;
+	padding-top: 2%;
+}
+
+content a {
+	padding-left: 5%;
+	/*padding-top: 10%;*/
+}
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	
+}
+
+a {
+	text-decoration: none;
+}
